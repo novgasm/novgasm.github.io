@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+
+    <title> NovClick </title>
+    <script src="js/main.js"> </script>
+    <img src="nov.png" id="nov" onmousedown ="mousedown()" onmouseup="mouseup()">
+</head>
+<script>
+function mousedown(){
+	document.getElementById("nov").src = 'novgasm.png';
+}
+function mouseup(){
+	document.getElementById("nov").src = 'nov.png';
+}
+</script>
+<body>
+	<canvas id = "gameCanvas" width = "700" height = "400"></canvas>
+	<script src="js/main.js"> </script>
+</body>
+</html>
